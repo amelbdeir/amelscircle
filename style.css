@@ -221,6 +221,9 @@ header {
 #page-14 {
   background: #8db6d9;
 }
+#page-f {
+  background: #8db6d9;
+}
 .page a {
   color: #fff;
 }
@@ -440,13 +443,13 @@ button {
 .bigger {
   font-size: 1rem;
 }
-.category-sports {
+.category-article {
   background: var(--sport-color);
 }
-.category-ent {
+.category-study {
   background: var(--ent-color);
 }
-.category-tech {
+.category-poem {
   background: var(--tech-color);
 }
 
@@ -503,3 +506,7 @@ button {
   #page-z {
   background: #8db6d9;
   }
+
+.nobg{
+  color: #000;
+}
