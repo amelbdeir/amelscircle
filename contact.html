@@ -77,10 +77,7 @@
           </p>
           <div class="m-1"></div>
           <div class="form-group">
-            <button type="submit" class="btn-sub g-recaptcha" 
-            data-sitekey="reCAPTCHA_site_key" 
-            data-callback='onSubmit' 
-            data-action='submit'>
+            <button type="submit">
               SEND <i class="fas fa-paper-plane"></i>
             </button>
           </div>
@@ -90,11 +87,5 @@
         </p>
       </div>
     </section>
-    <script src="https://www.google.com/recaptcha/api.js"></script>
-    <script>
-      function onSubmit(token) {
-        document.getElementById("demo-form").submit();
-      }
-    </script>
   </body>
 </html>
