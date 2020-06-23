@@ -39,7 +39,6 @@
         <form
           action="https://formspree.io/mjvaoqnl" method="POST"
           data-netlify="true"
-          data-netlify-recaptcha="true"
           
 
         >
@@ -76,9 +75,12 @@
             or medication. If needed, Amel’s Circle can assist you in finding a
             counsellor or psychiatrist in your area.
           </p>
-          <div class="m-1" data-netlify-recaptcha="true"></div>
+          <div class="m-1"></div>
           <div class="form-group">
-            <button type="submit" class="btn-sub">
+            <button type="submit" class="btn-sub g-recaptcha" 
+            data-sitekey="reCAPTCHA_site_key" 
+            data-callback='onSubmit' 
+            data-action='submit'>
               SEND <i class="fas fa-paper-plane"></i>
             </button>
           </div>
@@ -88,5 +90,11 @@
         </p>
       </div>
     </section>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script>
+      function onSubmit(token) {
+        document.getElementById("demo-form").submit();
+      }
+    </script>
   </body>
 </html>
