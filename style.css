@@ -376,12 +376,12 @@ input {
   text-align: center;
 }
 #contact-form .form-group-2 {
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-left: 20rem;
+  margin-left: 18rem;
 }
 
 #contact-form p {
