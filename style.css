@@ -232,7 +232,7 @@ header {
   color: #fff;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 90vh;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -500,13 +500,15 @@ button {
   justify-content: center;
   align-items: center;
 }
+
 #page-15 {
   background: #8db6d9;
-  }
-  #page-z {
-  background: #8db6d9;
-  }
+}
 
-.nobg{
+#page-z {
+  background: #8db6d9;
+}
+
+.nobg {
   color: #000;
 }
